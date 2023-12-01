@@ -18,7 +18,7 @@
 ## Технічне завдання
 
 1. Відповідно до
-   [макету](https://www.figma.com/file/XhC8FSCfAkraEF5l7Hx4fL/Test?type=design&node-id=0-1&mode=design&t=Ed3b0heFOmE2LSXU-0)
+   [макету](https://www.figma.com/file/XhC8FSCfAkraEF5l7Hx4fL/Test?type=design&node-id=0-1&mode=design)
    реалізувати картку оголошення про здачу авто в оренду.
 2. На першій сторінці каталогу має рендеритися 8 оголошень, а їх решта - по
    кліку на кнопку `Load more`.
