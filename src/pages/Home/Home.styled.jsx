@@ -1,11 +1,12 @@
 import styled from '@emotion/styled';
-import Image from '../../images/hero.jpg';
+import Image from '../../images/bg.webp';
 import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  background-image: url(${Image});
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+rgba(46, 47, 66, 0.7) 100%), url(${Image});
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -19,15 +20,15 @@ export const Wrapper = styled.div`
 
 export const Text = styled.p`
   display: flex;
-  font-size: 30px;
+  font-size: 50px;
   font-style: normal;
-  font-weight: 600;
-  color: #ffffff;
+  font-weight: 900;
+  color: #f0f3f6;
   text-align: center;
-  width: 460px;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 760px;
+  margin-top: 180px;
+  margin-left:auto;
+  margin-right:auto;
 `;
 
 export const Button = styled(Link)`

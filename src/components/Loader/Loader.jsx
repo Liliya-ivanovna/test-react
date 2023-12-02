@@ -20,6 +20,6 @@ export const Loader = () => (
       zIndex: '9999',
     }}
     wrapperClass=""
-    colors={['#3470FF', '#72a1ed']}
+    colors={['#3490FF', '#72a1ed']}
   />
 );
