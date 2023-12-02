@@ -12,7 +12,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <Provider store={store}>
-      <BrowserRouter basename="/rental-car">
+      <BrowserRouter basename="/test-react">
         <PersistGate loading={null} persistor={persistor}>
           <App />
         </PersistGate>
